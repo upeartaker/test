@@ -19,7 +19,7 @@ export const runtime = 'edge'
 
 app.frame('/', (c) => {
   return c.res({
-    image: 'http://vjs.zencdn.net/v/oceans.mp4',
+    image: './test.mp4',
     intents: [
       <Button value='apples'>Apples</Button>,
       <Button value='oranges'>Oranges</Button>,
