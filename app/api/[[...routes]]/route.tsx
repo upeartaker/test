@@ -15,7 +15,7 @@ const app = new Frog({
 })
 
 // Uncomment to use Edge Runtime
-// export const runtime = 'edge'
+export const runtime = 'edge'
 
 app.frame('/', (c) => {
   const { buttonValue, inputText, status } = c
@@ -81,5 +81,5 @@ export const POST = handle(app)
 // ```
 // Next, you'll want to set up the devtools to use the correct assets path:
 // ```ts
-// devtools(app, { assetsPath: '/.frog' })
+devtools(app, { assetsPath: '/.frog' })
 // ```
