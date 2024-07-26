@@ -35,14 +35,21 @@ app.frame('/', (c) => {
           fontWeight: 600,
         }}
       >
-       
+        <svg
+          width='75'
+          viewBox='0 0 75 65'
+          fill='#000'
+          style={{ margin: '0 75px' }}
+        >
+          <path d='M37.59.25l36.95 64H.64l36.95-64z'></path>
+        </svg>
         <div style={{ marginTop: 40 }}>Hello, World</div>
-        {/* <img
+        <img
           style={{
             width: 100,
           }}
           src='https://github.githubassets.com/assets/mona-loading-default-c3c7aad1282f.gif'
-        /> */}
+        />
       </div>
     ),
     intents: [
