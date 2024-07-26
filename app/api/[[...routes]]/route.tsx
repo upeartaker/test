@@ -18,9 +18,9 @@ export const runtime = 'edge'
 
 app.frame('/', (c) => {
   return c.res({
-    // imageOptions: {
-    //   format: 'svg',
-    // },
+    imageOptions: {
+      format: 'svg',
+    },
     image: (
       <div
         style={{
